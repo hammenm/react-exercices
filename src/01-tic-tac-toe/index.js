@@ -1,3 +1,3 @@
-import TicTacToe from './TicTacToe';
+import Game from './Game';
 
-export default TicTacToe;
+export default Game;
