@@ -45,7 +45,6 @@ class TodoApp extends React.Component {
   }
 
   handleDelete(e, item) {
-    console.log(item);
     this.setState({
       items: this.state.items.filter(({ id }) => id !== item.id),
     });
